@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    background-image: url(https://images.unsplash.com/photo-1561484930-998b6a7b22e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.1px;
+    color: #fff;
+}
+
+.info {
+    width: 90%;
+    max-width: 480px;
+    height: 60vh;
+    border-radius: 1.5vw;
+    background-color: #3d3c3c5b;
+    backdrop-filter: blur(15px);
+    padding: 1.5vw ;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height:100%;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 22px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 100%;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 30%;
+    margin: 1vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h1 {
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+
+.info h3 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 1vw 0;
+}
+
+.weathr-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+    margin-top: 2vw;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 1vw;
+}
+
+.left img {
+    width: 50px;
+}
+
+.humidity , .wind {
+    font-size: 28px;
+    margin-top: -10px;
+}
