@@ -44,17 +44,17 @@ document.querySelector(".wind").innerHTML= data.wind.speed + "km/h";
 
 
 if(data.weather[0].main == "clouds") {
-    weatherIcon.src = "/clouds.png"
+    weatherIcon.src = "/clouds.webp"
 }else if(data.weather[0].main == "Clear") {
-    weatherIcon.src = "/clear.png"
+    weatherIcon.src = "/clear.webp"
 }else if(data.weather[0].main == "Rain") {
-    weatherIcon.src = "/rain.png"
+    weatherIcon.src = "/rain.webp"
 }else if(data.weather[0].main == "Drizzle") {
-    weatherIcon.src = "/drizzle.png"
+    weatherIcon.src = "/drizzle.webp"
 }else if(data.weather[0].main == "Mist") {
-    weatherIcon.src = "/mist.png"
+    weatherIcon.src = "/mist.webp"
 }else if(data.weather[0].main == "Snow") {
-    weatherIcon.src = "/snow.png"
+    weatherIcon.src = "/snow.webp"
 }
 
 
